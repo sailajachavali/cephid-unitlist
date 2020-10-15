@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.cepheid.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 37.87 sec <<< FAILURE!
+Testing Unitlists(Cepheid Unitlists)  Time elapsed: 37.138 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //span[@class='Indicator-sc-11vkltc-0 hrjscC']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5H9HSOF', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:58)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at com.cepheid.main.Registerpage.clickoption(Registerpage.java:98)
+	at com.cepheid.test.StepDefinitions.user_click_on_option(StepDefinitions.java:156)
+	at ?.user click on option(file:///C:/Users/Administratör/OneDrive/workspace/cepheid-unitlists-testing/src/test/resources/features/unitlists.feature:29)
+
